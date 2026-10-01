@@ -1,0 +1,172 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+/* Mobil */
+@media (min-width: 375px) {
+    h1, h2 {
+        margin: 0px;
+    }
+
+    .estructura {
+        max-width: 375px;
+        width: 100%;
+        height: 4477px;
+
+        border: 1px solid black;
+    }
+
+    .fondo-persona {
+        position: relative;
+        width: 100%;
+        height: 596px;
+        background-color: white;
+        background-image: url(img/Path\ 2\ Copy-mobil.png);
+        background-size: cover;
+    }
+
+    .img-persona {
+        position: absolute;
+        top: 80px;
+        left: 108px;
+
+        width: 160px;
+        height: 160px;
+
+        background-image: url(img/Rectangle-mobil.png);
+        background-size: cover;
+    }
+
+    .img-persona-B {
+        position: absolute;
+        top: 50px;
+        left: 198px;
+
+        width: 100px;
+        height: 100px;
+
+        background-image: url(img/Combined\ Shape-mobil.png);
+        background-size: cover;
+    }
+
+    .designer {
+        max-width: 346px;
+        width: 100%;
+        height: 20px;
+
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #9E8C6C;
+
+        position: absolute;
+        top: 270px;
+        left: 15px;
+    }
+
+    .nom {
+        max-width: 346px;
+        width: 100%;
+        height: 92px;
+
+        position: absolute;
+        top: 304px;
+        left: 15px;
+    }
+
+    .nom h1 {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 46px;
+        letter-spacing: -2.17px;
+        text-align: center;
+    }
+} 
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+    .estructura {
+        max-width: 1440px;
+        width: 100%;
+        height: 3023px;
+
+        border: 1px solid black;
+    }
+
+    .fondo-persona {
+        position: relative;
+        max-width: 1440px;
+        width: 100%;
+        height: 747px;
+        background-color: white;
+        background-image: url(img/Path\ 2\ Copy-desk.png);
+        background-size: cover;
+    }
+
+    .img-persona {
+        position: absolute;
+        top: 180px;
+        left: 165px;
+
+        width: 350px;
+        height: 350px;
+
+        background-image: url(img/Rectangle-desk.png);
+        background-size: cover;
+    }
+    
+    .img-persona-B {
+        position: absolute;
+        top: 421px;
+        left: 403px;
+
+        width: 152px;
+        height: 152px;
+
+        background-image: url(img/Combined\ Shape-desk.png);
+        background-size: cover;
+    }
+
+    .designer {
+        max-width: 635px;
+        width: 100%;
+        height: 24px;
+
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+
+        position: absolute;
+        top: 180px;
+        left: 640px;
+    }
+}
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .estructura {
+        max-width: 768px;
+        width: 100%;
+        height: 4641px;
+
+        border: 1px solid black;
+    }
+
+    .fondo-persona {
+        max-width: 768px;
+        width: 100%;
+        height: 736px;
+        background-color: white;
+        background-image: url(img/Path\ 2\ Copy-desk.png);
+        background-size: cover;
+    }
+
+    
+}
